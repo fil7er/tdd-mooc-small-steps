@@ -38,7 +38,7 @@ function createApp(database) {
     }
   }
 
-  function calculateCostForNightTicket(age, baseCost) {
+  function calculateCostForNightTicket(age, baseCost, date2) {
     if (age === undefined) {
       return 0;
     }
